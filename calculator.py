@@ -1,7 +1,8 @@
 
-CONTRIBUTORS = ["Student B"]  # Conflicts generator 1
+CONTRIBUTORS = ["Student A", "Student B"]
+
 def add(a, b):
-    pass
+    return a + b
 
 def subtract(a, b):
     return a - b
@@ -15,3 +16,4 @@ def divide(a, b):
 if __name__ == "__main__":
     print(f"Welcome to the Group Calculator!, written by {CONTRIBUTORS}")
     print(subtract(5, 2))  
+    print(add(2, 2))  # Conflicts generator 2
